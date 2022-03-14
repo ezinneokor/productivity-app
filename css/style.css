@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    background-color: rgba(8, 2, 8, 0.795);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+       
+}
+
+.container-content{
+    /* border: 3px solid black;  */
+    width: 80%;  
+    height: 80%; 
+    background-color: rgba(105, 90, 205, 0.479);
+    border-radius: 9px;
+    
+}
+
+.heading{
+    text-align: center;
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.575);
+    color: whitesmoke;
+}
+
+.content-header{
+display: flex;
+justify-content: space-between;
+padding-top: .5em;
+
+}
+
+.content-header .alarm{
+    margin-right: 3em;
+    color: whitesmoke;
+    position: relative;
+}
+
+.content-header h6{
+    background-color:blue;
+    color: red;
+    height:1em;
+    width: 1em;
+    border-radius: 50%;
+    position: absolute;
+    left: 100%;
+    top: -15%;
+}
+
+.input-text button{
+    background-color: green;
+    color: whitesmoke;
+    margin-left: .5em;
+    height: 2em;
+    width: 23em;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+}
+
+#addText,#addDate,#addTime{
+    height: 2em;
+    width: 23em;
+    outline: none;
+    display: block;
+    margin-left: .5em;
+    /* text-decoration: line-through; */
+}
+
+.tasks{
+    text-align: center;
+    padding-top: 3em;
+    position: relative;
+  
+}
+
+.tasks ul li{
+   list-style: none;
+   border: 1px solid #eee;
+   width: 70%;
+   margin: 0 auto;
+   height: 2em;
+   padding-top: .5em;
+   border-radius: 3px;
+   background-color: rgba(0, 0, 0, 0.575);
+   cursor: pointer;
+  
+}
+.tasks ul li + li{
+    margin-top: .5em;
+}
+
+.taskDate,.taskTime,.task{
+    position: absolute;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    color: whitesmoke;
+    height: 1.5em;
+    font-size: .9em;
+}
+
+.checkbox{
+    position: absolute;
+    left: 18%;
+}
+
+.taskDate{
+    left: 25%;
+  
+   
+}
+
+.taskTime{
+    left: 40%;
+ 
+   
+}
+.task{
+    left: 50%;
+}
+
+
+.tasks ul li a i{
+    position: absolute;
+    right: 23%;
+    color: red;
+}
+
+.tasks ul li a + a  i{
+    position: absolute;
+    right: 18%;
+    color: blue;
+   
+}
+
+.content-swipe{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content-swipe .trash{
+    color: red;
+}
+
+.content-swipe .completed{
+    /* color: rgb(6, 29, 6); */
+    color: whitesmoke;
+}
+
+/* .completed strong{
+    color: rgba(245, 245, 245, 0.075);
+} */

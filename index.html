@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <div class="container">
+        <div class="container-content">
+
+            <div class="heading">
+                <h2>Productivity Tracking App</h2>
+            </div>
+
+            <div class="content-header">
+
+                <div class="input-text">
+                    
+                    <form id="formContent">
+                    <input type="text" placeholder="Add Task" id="addText">
+                    <input type="date"  name="" id="addDate" >
+                    <input type="time" id="addTime">
+                    <button type="button" id="btn">Add</button>
+                    <!-- <button type="button" id="btn2" onclick="storage()">Add check</button> -->
+                    </form>
+                </div>
+                 
+
+                <div class="alarm">
+                    <i class="far fa-bell"></i>
+                    <div class="my-alarm"></div>
+                    <h6></h6>
+                </div>
+
+            </div>
+
+            <div class="task-container">
+                <div class="tasks">
+                    <!-- <ul>
+                        <li>
+                            <input type="checkbox" name="" id="checkbox" class="checkbox">
+                            <input type="text" value="aaa" id="taskDate" class="taskDate">
+                            <input type="text" value="bbb" id="taskTime" class="taskTime">
+                            <input type="text" value="ccc" id="task" class="task">
+                           <a> <i class="fas fa-trash-alt trash"></i></a>
+                            <a><i class="fas fa-edit edit"></i></a>
+                        </li>
+                        
+                    </ul>
+                       -->
+                </div>
+
+                <div class="content-swipe">
+                    <div class="trash">
+                        <i class="fas fa-arrow-left">Swipe left to trash</i>
+                        <!-- <i class="fas fa-trash-alt"></i> -->
+                    </div>
+
+                    <div class="completed">        
+                        <i class="fas fa-arrow-right"></i><strong>Swipe right to add to completed</strong></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a0c80ccae1.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
