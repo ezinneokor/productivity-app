@@ -451,8 +451,8 @@ let note_ = (function(){
             let savedTask = localStorage.getItem("stored_tasks");
             savedTask = JSON.parse(savedTask);
             for(let i =0; i<savedTask.length; i++){
-               // console.log(savedTask);
-                // console.log("timeCreated:",timeCreated);
+                console.log(savedTask);
+                 console.log("timeCreated:",timeCreated);
                 if(savedTask[i]['stamp']==checkNextAlarm){
                    // alert("checked")
                    document.querySelector(`#checkbox_${nextTask.timeCreated}`).setAttribute("checked")
